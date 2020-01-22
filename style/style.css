@@ -1,0 +1,72 @@
+body{
+  background: #DDDBF1;
+}
+.inputBox{
+  width: 200px;
+  background: #3C4F76;
+  border: 1px #DDDBF1 solid;
+  padding: 15px;
+  margin: auto;
+}
+
+.inputBox form input{
+  display: block;
+  margin: 15px auto;
+  height: 20px;
+  background: #D1BEB0;
+  color: #383F51;
+}
+
+.inputBox form label{
+  text-align: center;
+  display: block;
+  color: #DDDBF1;
+}
+
+h1,h2{
+  width: 400px;
+  color:#383F51;
+  margin: auto;
+  font-family: "Arial";
+  text-align: center;
+}
+
+.listAllRecords{
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.listAllRecords table{
+  border-collapse: collapse;
+}
+
+.listAllRecords table td{
+  background: #3C4F76;
+  border: 1px #DDDBF1 solid;
+  color:#DDDBF1;
+  text-align: center;
+  padding: 5px;
+}
+
+.listAllRecords table th{
+  background: #383F51;
+  border: 1px #DDDBF1 solid;
+  color:#DDDBF1;
+}
+
+.controlPanel{
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.controlPanel form input{
+  height: 42px;
+  width: 230px;
+  background: #3C4F76;
+  color: #DDDBF1;
+  font-family: Arial;
+  display: block;
+  margin: auto;
+}
