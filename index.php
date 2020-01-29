@@ -18,6 +18,10 @@
       include ("template/listAllRecords.php");
     }
 
+    if (isset($_GET["recordsByDate"])){
+      include ("template/listRecordByDate.php");
+    }
+
     if (isset($_GET["time"])){
       $time = $_GET["time"];
       $km = $_GET["km"];

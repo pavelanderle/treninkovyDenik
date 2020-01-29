@@ -18,4 +18,15 @@ function listAllRecords($file){
   return $result;
 }
 
+function listByDate($file, $date){
+  $dateCz = date("d.m.Y", strtotime($date));
+  $data = listAllRecords($file);
+  foreach ($data as $value) {
+    if ($value[0]==$dateCz){
+      $result[]=$value;
+    }
+  }
+  return $result;
+}
+
  ?>
