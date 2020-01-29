@@ -21,6 +21,7 @@ function listAllRecords($file){
 function listByDate($file, $date){
   $dateCz = date("d.m.Y", strtotime($date));
   $data = listAllRecords($file);
+  $result = array();
   foreach ($data as $value) {
     if ($value[0]==$dateCz){
       $result[]=$value;

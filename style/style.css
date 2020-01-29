@@ -70,3 +70,18 @@ h1,h2{
   display: block;
   margin: auto;
 }
+
+form.recordsByDate{
+  display: flex;
+  width: 230px;
+  margin:auto;
+}
+
+form.recordsByDate input[type=date]{
+  width: 55%;
+  background: white;
+  height: 36px;
+}
+form.recordsByDate input[type=submit]{
+  width: 45%;
+}
